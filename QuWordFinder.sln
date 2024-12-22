@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuWordFinder.Application", "QuWordFinder.Application\QuWordFinder.Application.csproj", "{B0B7C8A4-B378-4D3F-9EF8-5ECDBADC9799}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuWordFinder.Application.Tests", "QuWordFinder.Application.Tests\QuWordFinder.Application.Tests.csproj", "{3D87ADDA-1B1B-4541-8775-E03D1D0371CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuWordFinder.Console", "QuWordFinder.Console\QuWordFinder.Console.csproj", "{44A1F7F3-6A7A-4879-96A1-0C5BE8A90623}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solution", ".solution", "{8C0D6093-7C78-4B78-9831-D7408D5D706C}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0B7C8A4-B378-4D3F-9EF8-5ECDBADC9799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0B7C8A4-B378-4D3F-9EF8-5ECDBADC9799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0B7C8A4-B378-4D3F-9EF8-5ECDBADC9799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0B7C8A4-B378-4D3F-9EF8-5ECDBADC9799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D87ADDA-1B1B-4541-8775-E03D1D0371CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D87ADDA-1B1B-4541-8775-E03D1D0371CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D87ADDA-1B1B-4541-8775-E03D1D0371CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D87ADDA-1B1B-4541-8775-E03D1D0371CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A1F7F3-6A7A-4879-96A1-0C5BE8A90623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A1F7F3-6A7A-4879-96A1-0C5BE8A90623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A1F7F3-6A7A-4879-96A1-0C5BE8A90623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A1F7F3-6A7A-4879-96A1-0C5BE8A90623}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
