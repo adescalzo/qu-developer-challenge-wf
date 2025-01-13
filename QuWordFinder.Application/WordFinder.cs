@@ -19,9 +19,9 @@ public class WordFinder
         WordFinderGuards.LengthValidation(matrixArray, MatrixSize);
         WordFinderGuards.IsMatrix(matrixArray);
 
-        var horizontalText = matrixArray.HorizontalsToString().ToLower();
-        var verticalText = matrixArray.VerticalsToString().ToLower();
-        _text = $"{horizontalText}|{verticalText}";
+        var horizontalText = matrixArray.HorizontalsToString();
+        var verticalText = matrixArray.VerticalsToString();
+        _text = $"{horizontalText}|{verticalText}".ToLower();
     }
 
     public IEnumerable<string> Find(IEnumerable<string> wordStream)

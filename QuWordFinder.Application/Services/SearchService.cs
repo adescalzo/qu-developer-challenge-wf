@@ -7,9 +7,12 @@ public interface ISearchService
 
 public class SearchService : ISearchService
 {
+    /// <summary>
+    /// Search values using Span method. Assumes that text and words are all uppercase or all lowercase.
+    /// </summary>
     public IEnumerable<string> SearchBySpan(string text, IEnumerable<string> words)
     {
-        var textSpan = text.AsSpan();
+        var textSpan = text.AsSpan(); //Note: It could improve the access to the value in textSpan
         var found = new List<string>();
 
         foreach (var word in words)
